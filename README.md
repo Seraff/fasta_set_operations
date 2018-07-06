@@ -1,5 +1,5 @@
 # Fasta Set Operations
-Simple wrapper above SeqKit for basic set operators (intersection, subtraction, etc.)
+Simple wrapper above SeqKit for basic set operators.
 
 The scrpt allows to easily get subtraction, intersection or union of fasta datasets.
 The operations are performed only according to the names of headers.
