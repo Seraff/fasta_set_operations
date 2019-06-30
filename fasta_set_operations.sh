@@ -28,7 +28,7 @@ random_name()
 
 extract_headers()
 {
-    grep '>' $1 | sed 's/>//'
+    grep '>' $1 | sed 's/>//' | cut -d' ' -f1
 }
 
 subtract()
